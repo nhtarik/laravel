@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// NH Tarik
+//AR Rafi
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
