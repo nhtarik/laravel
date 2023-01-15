@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 //test rafi
-
 Route::get('/', function () {
     return view('welcome');
 });
